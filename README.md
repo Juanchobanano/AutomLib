@@ -1,6 +1,8 @@
 
 <div style = "text-align:center"><img src = "./imagenes/autom.png" width = "350px"></div>
-
+<p align="center">
+  <img src = "./imagenes/autom.png" width = "350px">
+</p>
 ---
 
 
