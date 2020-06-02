@@ -1,5 +1,5 @@
 
-<center><img src = "./imagenes/autom.png" width = "350px"></center>
+<div style = "text-align:center"><img src = "./imagenes/autom.png" width = "350px"></div>
 
 ---
 
