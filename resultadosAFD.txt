@@ -1,3 +1,3 @@
-abaaaaabab	('0', 'a')	('0', 'b')	('1', 'a')	('0', 'a')	('0', 'a')	('0', 'a')	('0', 'a')	('0', 'b')	('1', 'a')	('0', 'b')	('1', '')	No
-aaabbba	('0', 'a')	('0', 'a')	('0', 'a')	('0', 'b')	('1', 'b')	('1', 'b')	('1', 'a')	('0', '')	Si
-bbbbabaab	('0', 'b')	('1', 'b')	('1', 'b')	('1', 'b')	('1', 'a')	('0', 'b')	('1', 'a')	('0', 'a')	('0', 'b')	('1', '')	No
+abaaaaabab	['Q0', 'abaaaaabab'] ->	['Q0', 'baaaaabab'] ->	['Q1', 'aaaaabab'] ->	['Q0', 'aaaabab'] ->	['Q0', 'aaabab'] ->	['Q0', 'aabab'] ->	['Q0', 'abab'] ->	['Q0', 'bab'] ->	['Q1', 'ab'] ->	['Q0', 'b'] ->	['Q1', ''] ->	Rechazado
+aaabbba	['Q0', 'aaabbba'] ->	['Q0', 'aabbba'] ->	['Q0', 'abbba'] ->	['Q0', 'bbba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Aceptado
+bbbbabaab	['Q0', 'bbbbabaab'] ->	['Q1', 'bbbabaab'] ->	['Q1', 'bbabaab'] ->	['Q1', 'babaab'] ->	['Q1', 'abaab'] ->	['Q0', 'baab'] ->	['Q1', 'aab'] ->	['Q0', 'ab'] ->	['Q0', 'b'] ->	['Q1', ''] ->	Rechazado

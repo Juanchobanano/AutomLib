@@ -1,0 +1,3 @@
+abbaab
+['Q0', 'abbaab'] ->	['Q0', 'bbaab'] ->	['Q1', 'baab'] ->	['Q1', 'aab'] ->	['Q2', 'aab'] ->	Abortado
+['Q0', 'abbaab'] ->	['Q0', 'bbaab'] ->	['Q1', 'baab'] ->	['Q2', 'baab'] ->	['Q2', 'aab'] ->	Abortado

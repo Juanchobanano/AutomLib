@@ -1,0 +1,3 @@
+aaab
+['Q0', 'aaab'] ->	['Q0', 'aab'] ->	['Q0', 'ab'] ->	['Q1', 'b'] ->	['Q1', ''] ->	Aceptado
+['Q0', 'aaab'] ->	['Q1', 'aab'] ->	['Q0', 'ab'] ->	['Q1', 'b'] ->	['Q1', ''] ->	Aceptado

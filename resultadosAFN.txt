@@ -1,4 +1,12 @@
-aba	('0', 'a')	('1', 'b')	('1', 'a')	('0', '')	3	1	1	1	Si
-aaab	('0', 'a')	('0', 'a')	('0', 'a')	('1', 'b')	('1', '')	7	0	5	2	No
-bbaaabba	('0', 'b')	1	0	1	0	No
-abbaaabba	('0', 'a')	('1', 'b')	('1', 'b')	('1', 'a')	('0', 'a')	('0', 'a')	('1', 'b')	('1', 'b')	('1', 'a')	('0', '')	7	1	5	1	Si
+aba
+['Q0', 'aba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Rechazado
+3	0	1	2	No
+aaab
+['Q0', 'aaab'] ->	['Q0', 'aab'] ->	['Q0', 'ab'] ->	['Q1', 'b'] ->	['Q1', ''] ->	Aceptado
+7	2	5	0	Si
+bbaaabba
+['Q0', 'bbaaabba'] ->	Abortado
+1	0	1	0	No
+abbaaabba
+['Q0', 'abbaaabba'] ->	['Q1', 'bbaaabba'] ->	['Q1', 'baaabba'] ->	['Q1', 'aaabba'] ->	['Q0', 'aabba'] ->	['Q0', 'abba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Rechazado
+7	0	5	2	No
