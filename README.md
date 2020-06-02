@@ -2,6 +2,7 @@
 <p align="center">
   <img src = "./imagenes/autom.png" width = "350px">
 </p>
+
 ---
 
 
