@@ -1,12 +1,15 @@
 abb	abb
-['Q0', 'abb'] ->	['Q0', 'bb'] ->	['Q1', 'b'] ->	['Q1', ''] ->	['Q2', ''] ->	Aceptado
-2	2	0	0	Si
+['Q0', 'abb'] ->	['Q0', 'bb'] ->	['Q2', 'bb'] ->	['Q3', 'bb'] ->	['Q3', 'b'] ->	['Q3', ''] ->	Aceptado
+3	1	2	0	Si
 abbba	abbba
-['Q0', 'abbba'] ->	['Q0', 'bbba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Rechazado
-4	0	3	1	No
+['Q0', 'abbba'] ->	['Q2', 'abbba'] ->	['Q3', 'abbba'] ->	Abortado
+3	0	3	0	No
 aaaab	aaaab
-['Q0', 'aaaab'] ->	['Q0', 'aaab'] ->	['Q0', 'aab'] ->	['Q0', 'ab'] ->	['Q0', 'b'] ->	['Q1', ''] ->	['Q2', ''] ->	Aceptado
-1	1	0	0	Si
+['Q0', 'aaaab'] ->	['Q0', 'aaab'] ->	['Q0', 'aab'] ->	['Q0', 'ab'] ->	['Q0', 'b'] ->	['Q2', 'b'] ->	['Q3', 'b'] ->	['Q3', ''] ->	Aceptado
+6	1	4	1	Si
 abbaaaa	abbaaaa
-['Q0', 'abbaaaa'] ->	['Q0', 'bbaaaa'] ->	['Q1', 'baaaa'] ->	['Q1', 'aaaa'] ->	['Q0', 'aaa'] ->	['Q0', 'aa'] ->	['Q0', 'a'] ->	['Q0', ''] ->	Rechazado
-3	0	2	1	No
+['Q0', 'abbaaaa'] ->	['Q2', 'abbaaaa'] ->	['Q3', 'abbaaaa'] ->	Abortado
+3	0	3	0	No
+abbaab	abbaab
+['Q0', 'abbaab'] ->	['Q2', 'abbaab'] ->	['Q3', 'abbaab'] ->	Abortado
+3	0	3	0	No
