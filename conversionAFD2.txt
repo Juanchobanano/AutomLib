@@ -1,0 +1,15 @@
+abb
+['{Q0}', 'abb'] ->	['{Q0,Q2,Q3}', 'bb'] ->	['{Q1,Q3}', 'b'] ->	['{Q3}', ''] ->	Aceptado
+1	1	0	0	Si
+abbba
+['{Q0}', 'abbba'] ->	['{Q0,Q2,Q3}', 'bbba'] ->	['{Q1,Q3}', 'bba'] ->	['{Q3}', 'ba'] ->	['{Q3}', 'a'] ->	Abortado
+1	0	1	0	No
+aaaab
+['{Q0}', 'aaaab'] ->	['{Q0,Q2,Q3}', 'aaab'] ->	['{Q0,Q2,Q3}', 'aab'] ->	['{Q0,Q2,Q3}', 'ab'] ->	['{Q0,Q2,Q3}', 'b'] ->	['{Q1,Q3}', ''] ->	Aceptado
+1	1	0	0	Si
+abbaaaa
+['{Q0}', 'abbaaaa'] ->	['{Q0,Q2,Q3}', 'bbaaaa'] ->	['{Q1,Q3}', 'baaaa'] ->	['{Q3}', 'aaaa'] ->	Abortado
+1	0	1	0	No
+abbaab
+['{Q0}', 'abbaab'] ->	['{Q0,Q2,Q3}', 'bbaab'] ->	['{Q1,Q3}', 'baab'] ->	['{Q3}', 'aab'] ->	Abortado
+1	0	1	0	No
