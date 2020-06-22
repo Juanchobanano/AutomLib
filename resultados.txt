@@ -1,3 +1,0 @@
-abbba	['Q0', 'abbba'] ->	['Q0', 'bbba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Rechazado
-bbba	['Q0', 'bbba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q0', ''] ->	Rechazado
-aaab	['Q0', 'aaab'] ->	['Q0', 'aab'] ->	['Q0', 'ab'] ->	['Q0', 'b'] ->	['Q1', ''] ->	Rechazado
