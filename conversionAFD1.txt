@@ -1,0 +1,6 @@
+aaabaaa
+['{Q0}', 'aaabaaa'] ->	['{Q0,Q1}', 'aabaaa'] ->	['{Q0,Q1,Q2}', 'abaaa'] ->	['{Q0,Q1,Q2}', 'baaa'] ->	['{Q1}', 'aaa'] ->	['{Q0,Q2}', 'aa'] ->	['{Q0,Q1}', 'a'] ->	['{Q0,Q1,Q2}', ''] ->	Aceptado
+1	1	0	0	Si
+bbbab
+['{Q0}', 'bbbab'] ->	Abortado
+1	0	1	0	No

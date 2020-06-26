@@ -1,0 +1,3 @@
+abaaaaabab	['Q0', 'abaaaaabab'] ->	['Q0', 'baaaaabab'] ->	['Q1', 'aaaaabab'] ->	['Q2', 'aaaabab'] ->	['Q2', 'aaabab'] ->	['Q2', 'aabab'] ->	['Q2', 'abab'] ->	['Q2', 'bab'] ->	['Q3', 'ab'] ->	['Q3', 'b'] ->	['Q3', ''] ->	Rechazado
+aaabbba	['Q0', 'aaabbba'] ->	['Q0', 'aabbba'] ->	['Q0', 'abbba'] ->	['Q0', 'bbba'] ->	['Q1', 'bba'] ->	['Q1', 'ba'] ->	['Q1', 'a'] ->	['Q2', ''] ->	Rechazado
+bbbbabaab	['Q0', 'bbbbabaab'] ->	['Q1', 'bbbabaab'] ->	['Q1', 'bbabaab'] ->	['Q1', 'babaab'] ->	['Q1', 'abaab'] ->	['Q2', 'baab'] ->	['Q3', 'aab'] ->	['Q3', 'ab'] ->	['Q3', 'b'] ->	['Q3', ''] ->	Rechazado
